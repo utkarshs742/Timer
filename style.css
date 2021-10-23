@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Fuggles', cursive;    
+    background-image: url("neonbrand-KYxXMTpTzek-unsplash.jpg");
+    background-size: cover;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    align-items: center;
+    height: 80vh;
+}
+
+.datetext{
+    font-size: 100px;
+    margin-top: 50px;
+}
+
+.countdown-container{
+    display: flex;
+    width: 100%;
+    font-family: 'Fuggles', cursive; 
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(255,255,255,1);
+    width: 900px;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+.countdown-container .big-text{
+    font-size: 140px;
+    margin: 0px 30px;
+    line-height: 1;
+}
+
+.countdown-container .days,.hours,.minutes,.seconds, span{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.formdata{
+    margin-top: 50px;
+    align-items: center;
+}
+
+.formdata input[type=text] {
+    width: 100%;
+    border: 5px solid rgba(255,255,255,0,5);
+    height: 100px;
+    box-shadow: 10px 10px 10px white;
+    text-align: center;
+    font-family: 'Fuggles', cursive;
+    color: white;
+    border-radius: 40px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
